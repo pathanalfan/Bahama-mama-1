@@ -1,0 +1,42 @@
+body{
+  background-color:rgb(224, 241, 255);
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  width: 100vw;
+  background-color: white;
+  border-bottom:1px solid #aabef7 ;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.left-section{
+  width: 33.33%;
+  display: flex;
+  justify-content: space-between;  
+}
+
+
+.middle-section{
+  width: 33.3%; 
+}
+
+.right-section{  
+  width: 33.3%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: -30px;
+  
+}
+
+.header img{
+  width: 30px ;
+}
