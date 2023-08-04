@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: row;
   height: 40px;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(145, 255, 154);
   border-bottom:1px solid #f7edaa ;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
-  margin: 0;
-  padding: 0;
 }
 
 .left-section{
@@ -44,7 +45,7 @@
 }
 
 .search-box{
-  width: 400px;
+  width: 200px;
   border: none;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -65,7 +66,7 @@
   }
   .search-icon{
     width: 15px;
-    margin-top: 5px;
+    
   }
   .search-box::placeholder{
     font-size: 10px;
@@ -84,7 +85,7 @@
 
 
 .right-section{ 
-  width: 110px;
+  width: 80px;
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -114,3 +115,23 @@
   box-shadow: 0px 1px 2px -1px rgb(57, 57, 57);
   transition: 0.2s;
 } 
+
+.dropdown-men,
+.dropdown-women,
+.dropdown-kids{
+  border: none;
+  margin: 10px 0;
+  margin-left: 0;
+  margin-right: 20px;
+  color: rgb(134, 23, 23);
+  background-color:transparent;
+  height: 39px;
+  width: calc(1fr/3);
+  padding: 0 5px;
+}
+
+.dropdown-men:hover,
+.dropdown-women:hover,
+.dropdown-kids:hover{
+  box-shadow: 0px 1px 2px -1px rgb(57, 57, 57);
+}
