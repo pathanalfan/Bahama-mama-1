@@ -1,19 +1,69 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Bahama Mama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/banner-slider.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/menu.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <div class="header">
     <div class="left-section">
       <img class="menu" src="images/menu.png">
+      <img class="logo" src="images/logo.png">
     </div>
-    <div class="middle-section"></div>
+    <div class="header-menu">
+      <div class="dropdown-menu js-dropdown-men">
+        <button class="dropdown-men js-dropdown-men-button">Men</button>
+      
+      
+      
+        <button class="dropdown-women">Women</button>
+      
+      
+        <button class="dropdown-kids"> Kids</button>
+      </div>
+    </div>
+    <div class="middle-section">
+      <input class="search-box" placeholder="Search for products">
+      <button class="search-button"><img class="search-icon" src="images/search.png"></button>
+    </div>
     <div class="right-section">
-      <img class="search" src="images/search.png">
       <img class="heart" src="images/heart.png">
       <img class="cart" src="images/cart.png">
     </div>
   </div>
+
+
+  
+  <div class="main">
+    <div class="banner-container">
+      <div class="banner-image">
+        <div class="slider-container">
+          <div class="slider">
+            <img class="banner1" src="images/banner/bannermen.jpg" alt="Image 1">
+            <img class="banner1" src="images/banner/bannermen1.png" alt="Image 2">
+            <img class="banner1" src="images/banner/bannerwomen.png" alt="Image 3">
+            <img class="banner1" src="images/banner/bannerwomen2.png" alt="Image 4">
+            <!-- Add more images as needed -->
+          </div>
+          
+        </div>
+        <div class="prev-btn"><img class="arrow" src="images/left arrow.png"></div>
+          <div class="next-btn"><img class="arrow" src="images/right arrow.png"></div>
+      </div>
+    </div>
+    </div>
+    
+  <script src="scripts/menu-men.js"></script>  
+  <script src="scripts/banner-slider.js"></script>
+
 </body>
+
+</html>
