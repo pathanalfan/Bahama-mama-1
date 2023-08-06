@@ -60,7 +60,7 @@ dropdownMenuWomenHTML = `
           Bags
         </div>
         </a>
-        <a class= "links" href="womens-jeweller.html">
+        <a class= "links" href="womens-jewellery.html">
         <div class="options">
           Jewellery
         </div>
@@ -70,7 +70,7 @@ dropdownMenuWomenHTML = `
           Active & Sports
         </div>
         </a>
-        <aclass= "links" href="womens-footwear.html">
+        <a class= "links" href="womens-footwear.html">
         <div class="options">
           Footwear
         </div>
