@@ -18,4 +18,4 @@ productMenTopwear.forEach((productMenTopwear)=>{
     </div>
   </div>`
 })
-document.querySelector('.js-catalogue-grid').innerHTML= productMenTopwearHTML;
+document.querySelector('.js-catalogue-men-topwear-grid').innerHTML= productMenTopwearHTML;
