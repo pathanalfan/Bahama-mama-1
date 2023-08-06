@@ -6,11 +6,11 @@
   overflow: hidden;
 }
 
-/*@media(max-height:300px){
+@media(max-height:300px){
   .slider-container{
   height: 10vh;
   }
-}*/
+}
 
 .slider {
   display: flex;

@@ -1,21 +1,30 @@
 .menu-header{
   display: flex;
   flex-direction: row;
-  background-color: bisque;
-  color: black;
+  background-color: rgb(194, 255, 129);
+
   font-family: roboto,arial;
   font-size: 16px;
   margin-top: 35px;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 15px;
+  position: relative;
+
 }
 
 .options{
-  margin-left: 15px;
-  margin-right: 15px;
+
+  font-family: roboto,arial;
+  font-size: 18px;
+  color: rgb(134, 23, 23);
+  padding: 10px 20px;
+  border: none;
 }
 
-.down-arrow{
-  width: 15px;
+.options:hover{
+  background-color: rgb(134, 191, 48);
+  cursor: pointer;
 }
+
+
+
