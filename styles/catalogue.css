@@ -22,7 +22,7 @@
   font-family: roboto,arial;
   font-size: xx-large;
   font-weight: bold;
-  color: rgb(179, 11, 11);
+  color: rgb(255, 255, 255);
 }
 
 .catalogue-container{
@@ -35,7 +35,7 @@
 
 .item-img{
   margin-top: 15px;
-  border: 2px solid rgb(159, 2, 2);
+  border: 2px solid rgb(255, 255, 255);
   overflow: hidden;
   border-radius: 20px;
   display: flex;
@@ -48,7 +48,7 @@
 .brand{
   font-weight: 500;
   font-size: 24px;
-  border-bottom: 2px dashed rgb(159, 2, 2) ;
+  border-bottom: 2px dashed rgb(255, 255, 255) ;
 }
 
 .name{

@@ -25,6 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
     showSlide(slideIndex);
   });
 
-  // Show the first slide on page load
+
   showSlide(slideIndex);
 });

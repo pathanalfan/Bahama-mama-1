@@ -1,7 +1,7 @@
 .menu-header{
   display: flex;
   flex-direction: row;
-  background-color: rgb(194, 255, 129);
+  background-color: rgb(198, 0, 10);
 
   font-family: roboto,arial;
   font-size: 16px;
@@ -16,13 +16,13 @@
 
   font-family: roboto,arial;
   font-size: 18px;
-  color: rgb(134, 23, 23);
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border: none;
 }
 
 .options:hover{
-  background-color: rgb(134, 191, 48);
+  background-color: rgb(111, 10, 10);
   cursor: pointer;
 }
 

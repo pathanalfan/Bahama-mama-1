@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 40px;
   width: 100%;
-  background-color: rgb(200, 255, 205);
+  background-color: rgb(220, 234, 155);
   border-bottom:1px solid #069c44 ;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +36,7 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-left: -2px;
-  background-color: #ffd001;
+  background-color: #ff2d2d;
 
 }
 

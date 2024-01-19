@@ -2,7 +2,7 @@
   width: 95%;
   height: 70vh;
   margin:50px 20px;
-  background-color: rgb(251, 244, 169);
+  background-color: rgb(207, 4, 4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +56,7 @@ height: 100vh;
 .banner-container:hover,
 .banner-image:hover{
 transform: scale(1.02);
-box-shadow: 2px 2px 6px 0px rgb(181, 181, 150);
+/*box-shadow: 2px 2px 6px 0px rgb(255, 172, 172);*/
 transition: 0.2s ease-in-out;
 
 }
